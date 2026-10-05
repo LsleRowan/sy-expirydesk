@@ -19,7 +19,7 @@ function jump(service: ServiceItem) {
 
 <template>
   <div
-    class="flex flex-col gap-3 border-b border-line px-4 py-3.5 transition-colors last:border-b-0 hover:bg-panel-2 sm:flex-row sm:items-center sm:gap-4"
+    class="flex flex-col gap-3 border-b border-line px-4 py-3.5 transition-colors last:border-b-0 last:rounded-b-[13px] hover:bg-panel-2 sm:flex-row sm:items-center sm:gap-4"
   >
     <div class="flex min-w-0 flex-1 items-center gap-3">
       <ServiceIcon :type="service.type" />

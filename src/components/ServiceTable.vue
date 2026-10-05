@@ -22,7 +22,7 @@ const { state, counts, visible, refresh } = useServices()
 </script>
 
 <template>
-  <section class="panel overflow-hidden">
+  <section class="panel">
     <div v-if="showHeader" class="flex flex-col gap-3 border-b border-line px-4 py-3.5 sm:flex-row sm:items-center sm:justify-between">
       <div class="flex flex-wrap items-center gap-3">
         <h2 class="text-[15px] font-semibold text-ink">{{ title }}</h2>
